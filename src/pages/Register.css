@@ -1,0 +1,97 @@
+.register-container {
+  width: 30%;
+  margin: 3rem auto;
+  padding: 1.25rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  background-color: #f8f8f8;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.register-container > h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register-container label {
+  margin-bottom: 0.3125rem;
+  width: 100%;
+}
+
+.register-container input {
+  padding: 0.625rem;
+  margin-bottom: 1rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  width: 100%;
+}
+
+.register-container button {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  padding: 0.625rem 5rem;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  align-self: center;
+  font-size: large;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.register-container button:hover {
+  background-color: #c00;
+  transform: scale(1.1);
+}
+
+.error-message {
+  color: #f00;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .register-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .register-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,13 @@
+.favorite-message {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .favorite-message {
+    font-size: 14px;
+  }
+}

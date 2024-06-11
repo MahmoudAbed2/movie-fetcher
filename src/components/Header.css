@@ -1,0 +1,50 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c00;
+}
+
+nav span {
+  margin-right: 1rem;
+}
+
+nav button {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.85rem;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #c00;
+  transform: scale(1.1);
+}

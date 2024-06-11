@@ -1,0 +1,64 @@
+.favorites-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.favorites-container > h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.favorites-container > p {
+  text-align: center;
+  margin-top: 3rem;
+}
+.movie-list {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+}
+
+.movie .movie-details {
+  padding: 10px;
+}
+
+.movie h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.movie p {
+  margin: 0;
+}
+
+.movie button {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.movie button:hover {
+  background-color: #c00;
+}
+
+@media (min-width: 768px) {
+  .movie {
+    width: calc((100% / 3) - 1.25rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .movie {
+    width: calc((100% / 5) - 1.25rem);
+  }
+}
